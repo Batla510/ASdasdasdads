@@ -1,0 +1,108 @@
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #373A3C;
+}
+.header__wrap{
+    width: 1400px;
+    height: 60px;
+    
+    display: flex;
+
+}
+
+
+.main_warp::before{
+    content: '';
+    display: block;
+    width: 13px;
+    height: 20px;
+    background: url(../img/icon-prev.svg);
+}
+
+.main_warp::after{
+    content: '';
+    display: block;
+    width: 13px;
+    height: 20px;
+    background: url(../img/icon-next.svg);
+}
+
+.header__menu{
+    display: flex;
+}
+.header__menu-item,.header__menu-item-g,.header__menu-item-q{
+    color: #ffffff83; 
+    font-size: 16px;    margin-right: 54px; 
+    display: flex;
+}
+.header__menu-item-g::before{
+    content: url(../img/user.svg);
+}
+.header__menu-item::after,.header__menu-item-g:after{
+    content: url(../img/down-arrow.svg);
+}
+.header__menu-inp{
+    margin-right: 30px;
+    width: 210px;
+    height: 20px;
+}
+.header__logo{
+    margin-left: 163px;
+    margin-top: 15px;
+}
+.main{
+    background: url(../img/Star-Wars-Battlefront-II-combat.png ) no-repeat center center / cover;
+    padding: 300px 0;
+    display: flex;
+}
+.main_warp{
+    display: flex;
+}
+.title{
+    color: #ffffff; 
+    font-size: 36px;    padding: 48px 0; 
+    margin-left: 831px;
+    
+}
+.btn{ 
+    padding-left: 858px;
+}
+.button{
+    padding: 25 35 25 35;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #8DD83D;
+    width: 136px;
+    height: 38px;
+    padding:  15px 30px;
+}
+.buttonx{
+    padding: 25 35 25 35;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #686C6F;
+    width: 136px;
+    height: 38px;
+    padding:  15px 30px;
+    border-radius: 15px;
+}
+.footer__block{
+    background-color: #373A3C;
+
+}
+.footer__menu-item{
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer__menu-item-g
